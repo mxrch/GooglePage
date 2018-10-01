@@ -5,3 +5,17 @@
 .img {
 	margin-left: 500px;
 }
+
+footer ul li{
+	list-style:none;
+	display:inline-block;
+    margin-right:20px;
+}
+
+.footerNavLeft{
+	float:left;
+}
+
+.footerNavRight{
+	float:right;
+}
