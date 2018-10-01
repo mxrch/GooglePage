@@ -6,6 +6,40 @@
 	margin-left: 500px;
 }
 
+/*Header*/
+
+#header {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px 10px;
+}
+
+.shortcut {
+	color: black;
+}
+
+a.signin {
+	background-color: #4386f8;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	padding: 5px 13px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+}
+
+/*-----*/
+
+/*Main */
+
+
+
+
+/* */
+
+
 .footerCountry{
 	display:inline;
 	color:#666666;
