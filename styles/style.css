@@ -1,12 +1,5 @@
-.image {
-	padding: 500px;
-}
 
-.img {
-	margin-left: 500px;
-}
-
-/*Header*/
+/*HEADER*/
 
 #header {
 	display: flex;
@@ -32,57 +25,95 @@ a.signin {
 
 /*-----*/
 
-/*Main */
-
-
-
-
-/* */
-
-
-.footerCountry{
-	display:inline;
-	color:#666666;
-	font-size:14px;
-	padding:13px;
-	width:100%;
-	background-color:red;
+/* Main Page */
+.block {
+    text-align: center;
+	width: 100px;
+	height: 300px;
+   	position:absolute;
+   	top:25%;
+   	left:42%;
 }
 
+.searchbar{
+    margin-left: -180px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+.champ {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-color: white;
+    box-shadow: 2px 2px 0px grey;
+    font-size: 25px;
+    width: 600px;
+
+}
+
+.buttons {
+    display: inline-flex;
+    position:absolute;
+   top:70%;
+   left:5%;
+    
+}
+
+.search {
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+.lucky {
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+/*-----*/
+
+/* Footer */
+
 footer{
-	background: #f2f2f2;
-	border-top: solid 2px #e4e4e4;
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
 	bottom:0;
-	padding-bottom:0;
-	width:100%;
-	font-family: arial,sans-serif;
-  }
-  
-  footer ul li{
-	display:inline;
-	color:#666666;
-	font-size:14px;
-	padding:13px;
-  }
-  
-  footer ul{
-	float:left;
-	padding:1px;
-  }
-  
- footer ul a {
-	text-decoration:none;
-	color:#666;
+	position:fixed;
+    padding-bottom:0;
+    width:100%;
+    font-family: arial,sans-serif;
  }
 
-  footer ul a:hover{
-	text-decoration:underline;
-  }
-  
-  .footerRight{
-	float:right;
-  }
+ footer ul li{
+    display:inline;
+    color:#666666;
+    font-size:14px;
+    padding:13px;
+ }
 
-  .footerLeft{
-	float:left;
-  }
+ footer ul{
+    float:left;
+    padding:1px;
+ }
+
+footer ul a {
+    text-decoration:none;
+    color:#666;
+}
+
+ footer ul a:hover{
+    text-decoration:underline;
+ }
+
+ .footerRight{
+    float:right;
+ }
+
+ .footerLeft{
+    float:left;
+ }
+
+ /*-----*/
