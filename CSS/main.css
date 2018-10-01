@@ -1,0 +1,91 @@
+/* Assets 
+#5c1b1b; 
+*/
+
+/* All */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+
+html{
+background-color:#FFF;
+}
+
+/* ---------------- */
+/* REUSABLE */
+/* ------------------ */
+
+.container{
+max-width:60%;
+margin:0 auto;
+}
+
+.span-2-of-2 {
+	width: 100%;
+}
+
+.span-1-of-2 {
+	width: 49.2%;
+}
+.span-1-of-2 {
+	width: 49.2%;
+}
+
+
+/* ---------------- */
+/* HEADER */
+/* ------------------ */
+
+
+/* ---------------- */
+/* HEADING */
+/* ------------------ */
+
+/* ---------------- */
+/* mainPage */
+/* ------------------ */
+
+#img{
+    margin-top:25vh;
+}
+/* ---------------- */
+/* FOOTER */
+/* ------------------ */
+
+
+.footerNavLeft{
+    list-style:none;
+    float:left;
+}
+
+.footerNavRight{
+    list-style:none;
+    float:right;
+}
+
+footer{
+    background-color:#FFF;
+    padding:50px;
+    font-size:110%;
+}
+
+footer p{
+    color:#888;
+    text-align:center;
+    font-size:80%;
+margin-top:90px;
+
+/* ---------------- */
+/* BUTTON */
+/* ------------------ */
+
+
+
+
+/* ------------------ */
+
+
