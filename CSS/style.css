@@ -1,5 +1,5 @@
 
-/*HEADER*/
+/*header*/
 
 
 #header {
@@ -34,17 +34,18 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+.signin:hover{
+	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.16);
+}
 
 /*-----*/
 
 /* Main Page */
+
 .block {
 	text-align: center;
-	
-
 	width: 100px;
     height: 300px;
-
     position:absolute;
     top:25%;
     left:42%;
@@ -58,8 +59,8 @@
 }
 
 .champ {
-
-	border-radius: 4px;
+	box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.16);
+	border-radius: 1px;
 	border: 1px solid #ccc;
 	padding: 12px 20px;
 	margin: 8px 0; 
@@ -67,21 +68,17 @@
 	width: 600px;
 	height: 15px;
 	transition: 0.3s
-
 }
 
 .champ:hover {
-
-	box-shadow: 0 0 11px rgba(33,33,33,.2);
+	box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.16);
 }
 
 .buttons {
-
 	display: inline-flex;
 	position:absolute;
     top:70%;
     left:5%;
-	
 }
 
 .search {
@@ -99,11 +96,10 @@
 
 .search:hover {
 
-	opacity: 1
+	opacity: 1;
 }
 
 .lucky {
-	
 	font-family: arial, sans-serif;
 	border: 1px solid #ccc;
 	border-radius: 2px;
@@ -111,17 +107,15 @@
 	width: 120px;
 	height: 40px;
 	opacity: 0.6;
-  	transition: 0.3s; 	
+	  transition: 0.3s; 
+	line-height:40px;	
 }
 
 .lucky:hover {
-
-	opacity: 1
-
+	opacity: 1;
 }
 
 .texte {
-
 	font-family: arial,sans-serif;
 	font-size: 14px;
 	margin-bottom: 24px;
@@ -129,6 +123,13 @@
 	position:absolute;
     top:80%;
     left:17%;
+}
+.texte p a:visited {
+	text-decoration:none;
+}
+
+#searchbarMicrophone {
+	height:20px;
 }
 
 /*-----*/
@@ -140,21 +141,20 @@ footer{
     border-top: solid 2px #e4e4e4;
 	bottom:0;
 	position:fixed;
-    padding-bottom:0;
+	padding-bottom:0;
     width:100%;
-    font-family: arial,sans-serif;
+	font-family: arial,sans-serif;
  }
 
  footer ul li{
     display:inline;
     color:#666666;
     font-size:14px;
-    padding:13px;
+    padding-right:13px;
  }
 
  footer ul{
     float:left;
-    padding:1px;
  }
 
 footer ul a {
@@ -165,6 +165,20 @@ footer ul a {
  footer ul a:hover{
     text-decoration:underline;
  }
+ footer ul a:active{
+	text-decoration:underline;
+	color:orangered;
+ }
+
+.footerCountry{
+	display: flex;
+	height: 41px;
+	border: 1px solid #e4e4e4;
+	padding-left: 13px;
+	align-items: center;
+	color:rgba(0,0,0,.54);
+	font-size: 15px;
+}
 
  .footerRight{
     float:right;
