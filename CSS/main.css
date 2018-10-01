@@ -20,8 +20,16 @@ background-color:#FFF;
 /* ------------------ */
 
 .container{
-max-width:80%;
+max-width:60%;
 margin:0 auto;
+}
+
+.span-2-of-2 {
+	width: 100%;
+}
+
+.span-1-of-2 {
+	width: 49.2%;
 }
 
 
@@ -39,11 +47,28 @@ margin:0 auto;
 /* ------------------ */
 
 #img{
-    
+    margin-top:25vh;
 }
 /* ---------------- */
 /* FOOTER */
 /* ------------------ */
+
+.footerLinks li a:visited{
+    text-decoration:none;
+    border:0;
+    color:#888;
+    transition: color 0.2s;
+}
+
+.footerNavLeft{
+    list-style:none;
+    float:left;
+}
+
+.footerNavRight{
+    list-style:none;
+    float:right;
+}
 
 
 /* ---------------- */
