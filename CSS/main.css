@@ -53,12 +53,6 @@ margin:0 auto;
 /* FOOTER */
 /* ------------------ */
 
-.footerLinks li a:visited{
-    text-decoration:none;
-    border:0;
-    color:#888;
-    transition: color 0.2s;
-}
 
 .footerNavLeft{
     list-style:none;
@@ -70,6 +64,17 @@ margin:0 auto;
     float:right;
 }
 
+footer{
+    background-color:#FFF;
+    padding:50px;
+    font-size:110%;
+}
+
+footer p{
+    color:#888;
+    text-align:center;
+    font-size:80%;
+margin-top:90px;
 
 /* ---------------- */
 /* BUTTON */
