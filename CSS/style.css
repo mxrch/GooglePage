@@ -140,6 +140,7 @@ footer{
     background: #f2f2f2;
     border-top: solid 2px #e4e4e4;
 	bottom:0;
+	left:0;
 	position:fixed;
 	padding-bottom:0;
     width:100%;
@@ -150,16 +151,16 @@ footer{
     display:inline;
     color:#666666;
     font-size:14px;
-    padding-right:13px;
+	padding-right:13px;
  }
 
  footer ul{
-    float:left;
+	float:left;
  }
 
 footer ul a {
     text-decoration:none;
-    color:#666;
+	color:#666;
 }
 
  footer ul a:hover{
@@ -174,10 +175,14 @@ footer ul a {
 	display: flex;
 	height: 41px;
 	border: 1px solid #e4e4e4;
-	padding-left: 13px;
+	padding-left: 40px;
 	align-items: center;
 	color:rgba(0,0,0,.54);
 	font-size: 15px;
+}
+
+.footerInfos{
+	margin-right:20px;
 }
 
  .footerRight{
@@ -185,7 +190,7 @@ footer ul a {
  }
 
  .footerLeft{
-    float:left;
+	float:left;
  }
 
  /*-----*/
